@@ -66,6 +66,7 @@ public class contatoController {
 			
 			ct.setNome(contato.getNome());
 			ct.setEmail(contato.getEmail());
+			ct.setFone(contato.getFone());
 			
 			repo.save(ct);
 			

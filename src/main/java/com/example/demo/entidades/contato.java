@@ -12,6 +12,7 @@ public class contato {
 	private Long id;
 	private String nome;
 	private String email;
+	private String fone;
 	
 	
 	public contato(Long id, String nome, String email) {
@@ -42,6 +43,14 @@ public class contato {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public String getFone() {
+		return fone;
+	}
+
+	public void setFone(String fone) {
+		this.fone = fone;
 	}
 	
 }
