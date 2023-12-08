@@ -35,7 +35,7 @@ public class contatoController {
 	}
 	
 	@GetMapping("/{idContato}") 
-	public ResponseEntity<contato> getContatosId(@PathVariable("id") long id) {
+	public ResponseEntity<contato> getContatosId(@PathVariable("idContato") long id) {
 
 		Optional<contato> opContato = repo.findById(id);		
 		
